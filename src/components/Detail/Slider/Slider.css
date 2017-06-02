@@ -1,0 +1,113 @@
+/* smu-slider-inner-price 시작 */
+.smu-slider-box-inner {
+    width:650px;
+    height:53px;
+    position: relative;
+    cursor: default;
+}
+.smu-slider-box-inner-track {
+    height:3px;
+    background-color:#eaeaea;
+    position: relative;
+    top: 8px;
+    cursor: default;
+}
+.smu-slider-box-inner-track.selected{
+    background-color: #ffd800;
+    border-radius: 3px;
+    position: relative;
+    top: 3px;
+    height: 7px;
+    z-index: 50;
+}
+.smu-slider-box-inner-handle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffd800;
+    border-radius: 9px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 100;
+    cursor: pointer;
+}
+.smu-slider-box-inner-value-tag {
+    float: left;
+    padding: 6px;
+    font-family: 'KoreanGD12-R';
+    font-size: 16px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: default;
+    box-sizing: border-box;
+}
+.smu-slider-box-inner-value-tag.max {
+    float:right;
+    color:#a3a3a3;
+}
+.smu-slider-box-inner-value-tag.min {
+    color:#a3a3a3;
+}
+.smu-slider-box-inner-value-tag.head {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #eaeaea;
+    position: absolute;
+}
+.smu-slider-box-inner-value-tag.tail {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #eaeaea;
+    position: absolute;
+}
+/* smu-slider-inner-price 끝 */
+/* smu-slider-mini (page-smu-slider-oneway-ctrlbox) 끝 */
+.smu-slider-mini.smu-box.id-1-1 {
+    width: 200px;
+    height:100px;
+}
+.smu-slider-mini.smu-slider-box-inner.sum-unselectable {
+    width: 100%;
+    height:53px;
+}
+.smu-slider-mini.smu-slider-box-inner-track.sum-unselectable {
+    top:6px;
+    height:1px;
+    background-color:#eaeaea;
+}
+.smu-slider-mini.smu-slider-box-inner-track.selected.sum-unselectable {
+    background-color: #ffd800;
+    border-radius: 2px;
+    top:4px;
+    height:3px;
+}
+.smu-slider-mini.smu-slider-box-inner-handle.right.sum-unselectable {
+    width:10px;
+    height:10px;
+    border: 2px solid #ffd800;
+    border-radius: 9px;
+    background-color:#ffffff;
+    cursor: pointer;
+}
+.smu-slider-mini.smu-slider-box-inner-value-tag {
+    padding: 6px;
+    font-family: 'KoreanGD12-R';
+    font-size: 16px;
+    margin-top: 10px;
+}
+.smu-slider-mini.smu-slider-box-inner-value-tag.max.sum-unselectable {
+    color:#f44336;
+    font-family:'KoreanGD12-R';
+    font-size: 16px;
+}
+.smu-slider-mini.smu-slider-box-inner-value-tag.min.sum-unselectable {
+    color:#a3a3a3;
+    font-family: 'KoreanGD12-R';
+    font-size: 16px;
+}
+.smu-slider-mini.smu-slider-box-inner-value-tag.head.sum-unselectable {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #eaeaea;
+}
+/* smu-slider-mini 시작 */

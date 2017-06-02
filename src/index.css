@@ -1,0 +1,32 @@
+@font-face{
+  font-family:'KoreanGD12-R';
+  src:url(./fonts/KoreanGD12-R.woff);
+}
+@font-face{
+  font-family:'KoreanGD15-R';
+  src:url(./fonts/KoreanGD15-R.woff);
+}
+.smu-hide {
+  display: none;
+}
+.smu-glass {
+  opacity: 0;
+}
+.smu-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sum-unselectable {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

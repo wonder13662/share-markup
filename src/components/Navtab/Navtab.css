@@ -1,0 +1,29 @@
+.smu-navtab {
+    box-sizing: content-box;
+    padding-left: 240px;
+    text-align: right;
+    float: right;
+}
+.smu-navtab .list {
+    padding: 0px;
+}
+.smu-navtab .tab {
+    font-family:'KoreanGD12-R';
+    font-size:12px;
+    display: inline;
+    color: #aaaaaa;
+    padding:10px 15px;
+    cursor: pointer;
+}
+.smu-navtab .tab a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.smu-navtab .tab a:hover {
+    font-family:'KoreanGD15-R';
+    color: #999999;
+}
+.smu-navtab .tab.selected a {
+    font-family:'KoreanGD15-R';
+    color: #999999;
+}

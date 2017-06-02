@@ -1,0 +1,29 @@
+.smu-footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background-color: #2196f3;
+    z-index:20;
+    padding-top: 50px;
+}
+.smu-footer .block {
+    display: inline-block;
+    width: 33%;
+    color: #ddd;
+}
+.smu-footer .block .content {
+    margin: 10px;
+}
+.smu-footer .block .content.center {
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+.smu-footer .block .title {
+    font-family:'KoreanGD12-R';
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
